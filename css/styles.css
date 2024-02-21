@@ -97,9 +97,10 @@
 }
 
 /* Element styling */
-html {
+* {
   box-sizing: border-box;
   font-family: "poppinslight", sans-serif;
+  word-wrap: break-word;
 }
 ul li {
   list-style: none;
@@ -140,10 +141,10 @@ ul {
 
 /* Header styling starts */
 .nav-left {
-  width: 450px;
+  width: 420px;
 }
 .nav-items-left {
-  width: 350px;
+  width: 300px;
 }
 .nav-right {
   width: 450px;
@@ -152,8 +153,8 @@ ul {
   width: 350px;
 }
 .call {
-  width: 120px;
-  background: rgba(245, 171, 185, 0.856);
+  width: 150px;
+  background: rgba(247, 207, 214, 0.856);
   color: red;
   padding: 14px;
   border-radius: 30px;
@@ -171,15 +172,144 @@ ul {
 /* Main Hero section styling starts */
 
 /* Main hero left starts */
-.main-text {
+main {
   background: rgb(245, 245, 255);
   background: linear-gradient(
-    90deg,
-    rgba(245, 245, 255, 1) 35%,
-    rgba(255, 255, 255, 1) 100%
+    45deg,
+    rgba(245, 245, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 60%,
+    rgb(245, 245, 255) 100%
   );
 }
 
+/* Hero top styling */
+.hero-top {
+  gap: 10px;
+  padding-bottom: 200px;
+}
+.main-text {
+  width: 420px;
+}
+.main-text h1 {
+  font-family: "poppinsbold", sans-serif;
+  font-size: 4rem;
+}
+.main-text p {
+  font-size: 1.5rem;
+}
 /* Main hero left ends */
 
+/* Main hero mid starts */
+
+.main-image-wrapper {
+  position: relative;
+}
+.burger-wrap {
+  position: absolute;
+  top: 175px;
+}
+.ketchup-img {
+  position: absolute;
+  top: 280px;
+  left: 335px;
+}
+
+/* Main hero mid ends */
+
+/* Main hero right starts */
+.summary {
+  width: 400px;
+}
+.summary-header {
+  padding-top: 85px;
+  font-family: "poppinsbold", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(227, 227, 249);
+}
+
+.amount h2 {
+  font-family: "poppinsbold", sans-serif;
+  font-size: 2rem;
+  color: rgb(7, 7, 168);
+}
+.amount a {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(7, 7, 168);
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+
+.stats {
+  background-color: rgb(227, 227, 249);
+  width: 380px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 40px;
+}
+.stats-item {
+  width: 90px;
+}
+
+.free-item {
+  font-family: "poppinsmedium", sans-serif;
+  font-size: 1.2rem;
+  padding: 20px 20px 20px 0px;
+}
+.ketchup-text {
+  color: red;
+}
+/* Main hero right ends */
+
+/* Hero bottom styling */
+
+.hero-bottom {
+  position: relative;
+  background-color: rgb(7, 7, 168);
+  width: 100%;
+  height: 400px;
+}
+
+.add-on-holder {
+  max-width: 1320px;
+  width: 100%;
+  position: absolute;
+  top: -125px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.add-on-wrapper {
+  width: 100px;
+}
+.add-on {
+  width: 100%;
+}
+.add-on-item {
+  height: 250px;
+  padding-block: 30px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 13%;
+}
+
+.circle {
+  position: relative;
+  background-color: lavender;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+.quantity {
+  width: 120px;
+}
+.modify {
+  color: rgb(103, 103, 248);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+}
+/* Hero bottom ends */
 /* Main Hero section styling ends */
