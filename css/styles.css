@@ -175,7 +175,7 @@ ul {
 main {
   background: rgb(245, 245, 255);
   background: linear-gradient(
-    45deg,
+    90deg,
     rgba(245, 245, 255, 1) 0%,
     rgba(255, 255, 255, 1) 60%,
     rgb(245, 245, 255) 100%
@@ -188,14 +188,14 @@ main {
   padding-bottom: 200px;
 }
 .main-text {
-  width: 420px;
+  width: 400px;
 }
 .main-text h1 {
   font-family: "poppinsbold", sans-serif;
   font-size: 4rem;
 }
 .main-text p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 /* Main hero left ends */
 
@@ -243,7 +243,7 @@ main {
 
 .stats {
   background-color: rgb(227, 227, 249);
-  width: 380px;
+  width: 400px;
   padding: 5px 10px 5px 10px;
   border-radius: 40px;
 }
